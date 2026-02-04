@@ -216,14 +216,7 @@ function TacheValid({titel,key}){
             </Stack>
              </Box>);
 }
-const axios = require('axios').default;
-axios.get('/user')
-  .then(function (response) {
-    console.log(response);
-  })
-  .catch(function (error) {
-    console.log(error);
-  })
+
 
 
 
